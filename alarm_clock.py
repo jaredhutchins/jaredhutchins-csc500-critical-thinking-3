@@ -2,15 +2,20 @@
 current_time = int(input("Enter current time (0-23): "))
 wait_hours = int(input("Enter hours to wait: "))
 
-# Store the time values in a list and add them together.
-time_values = [current_time, wait_hours]
-total_hours = 0
+if current_time < 0 or current_time > 23:
+    print("Error: Current time must be between 0 and 23.")
+elif wait_hours < 0:
+    print("Error: Hours to wait must be 0 or greater.")
+else:
+    # Store the time values in a list and add them together.
+    time_values = [current_time, wait_hours]
+    total_hours = 0
 
-for hours in time_values:
-    total_hours += hours
+    for hours in time_values:
+        total_hours += hours
 
-# Calculate the alarm time using modulo division.
-alarm_time = total_hours % 24
+    # Calculate the alarm time using modulo division.
+    alarm_time = total_hours % 24
 
-# Display the result.
-print("Alarm will go off at:", alarm_time)
+    # Display the result.
+    print("Alarm will go off at:", alarm_time)
