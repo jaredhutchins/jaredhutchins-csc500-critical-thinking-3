@@ -1,16 +1,16 @@
 # Ask the user for the current time and the number of hours to wait.
-currentTime = int(input("Enter current time (0-23): "))
-waitHours = int(input("Enter hours to wait: "))
+current_time = int(input("Enter current time (0-23): "))
+wait_hours = int(input("Enter hours to wait: "))
 
 # Store the time values in a list and add them together.
-timeValues = [currentTime, waitHours]
-totalHours = 0
+time_values = [current_time, wait_hours]
+total_hours = 0
 
-for hours in timeValues:
-    totalHours += hours
+for hours in time_values:
+    total_hours += hours
 
 # Calculate the alarm time using modulo division.
-alarmTime = totalHours % 24
+alarm_time = total_hours % 24
 
 # Display the result.
-print("Alarm will go off at:", alarmTime)
+print("Alarm will go off at:", alarm_time)
