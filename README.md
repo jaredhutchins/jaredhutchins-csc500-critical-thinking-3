@@ -5,17 +5,17 @@
 ## **What This Is:**
 <u></u>
 
-This repository contains simple Python programs that take user input and perform basic calculations.
+This repository contains simple Python programs that take user input, store values in lists, and perform basic calculations.
 
-The programs are meant to show core programming concepts like variables, input/output, arithmetic, and modulo division in a clean and easy-to-follow way.
+The programs are meant to show core programming concepts like variables, input/output, arithmetic, lists, loops, and modulo division in a clean and easy-to-follow way.
 
 ---
 
 ## **What’s Inside:**
 <u></u>
 
-- **meal_total.py** - Python script that asks the user for the cost of a meal and displays the meal cost, tip, sales tax, and total cost
-- **alarm_clock.py** - Python script that asks the user for the current time and hours to wait, then displays the alarm time on a 24-hour clock
+- **meal_total.py** - Python script that asks the user for the cost of a meal, stores the calculated amounts in a list, and displays the meal cost, tip, sales tax, and total cost
+- **alarm_clock.py** - Python script that asks the user for the current time and hours to wait, stores the time values in a list, and displays the alarm time on a 24-hour clock
 - **README.md**
 
 ---
@@ -24,6 +24,8 @@ The programs are meant to show core programming concepts like variables, input/o
 <u></u>
 
 - Accepts user input
+- Uses Python lists to store related values
+- Uses loops to iterate through list data
 - Calculates an 18% tip and 7% sales tax
 - Calculates a total meal cost
 - Uses modulo division to determine alarm time
