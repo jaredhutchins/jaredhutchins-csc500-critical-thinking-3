@@ -1,0 +1,6 @@
+# Assignment document
+*.docx
+
+# Python cache files
+__pycache__/
+*.pyc
